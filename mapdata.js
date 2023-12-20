@@ -6,24 +6,20 @@ var simplemaps_usmap_mapdata={
     background_transparent: "yes",
     border_color: "#ffffff",
     popups: "detect",
-    
-    //State defaults
-    state_description: "State Description",
+    state_description: "",
     state_color: "#88A4BC",
     state_hover_color: "#3B729F",
     state_url: "",
     border_size: 1.5,
     all_states_inactive: "no",
-    all_states_zoomable: "yes",
-    
-    //Location defaults
-    location_description: "Add location markers using latitude and longitude!",
-    location_color: "#2041D4",
+    all_states_zoomable: "no",
+    location_description: "",
+    location_color: "#f70200",
     location_opacity: 0.8,
     location_hover_opacity: 1,
     location_url: "",
     location_size: 25,
-    location_type: "square",
+    location_type: "circle",
     location_image_source: "frog.png",
     location_border_color: "#FFFFFF",
     location_border: 2,
@@ -80,7 +76,7 @@ var simplemaps_usmap_mapdata={
     },
     FL: {
       name: "Florida",
-      color: "#333"
+      color: "#595959"
     },
     NH: {
       name: "New Hampshire",
@@ -132,7 +128,7 @@ var simplemaps_usmap_mapdata={
     },
     IN: {
       name: "Indiana",
-      color: "#333"
+      color: "#595959"
     },
     IL: {
       name: "Illinois",
@@ -160,11 +156,11 @@ var simplemaps_usmap_mapdata={
     },
     TN: {
       name: "Tennessee",
-      color: "#333"
+      color: "#595959"
     },
     AR: {
       name: "Arkansas",
-      color: "#333"
+      color: "#595959"
     },
     MO: {
       name: "Missouri",
@@ -208,7 +204,7 @@ var simplemaps_usmap_mapdata={
     },
     TX: {
       name: "Texas",
-      color: "#333"
+      color: "#595959"
     },
     NM: {
       name: "New Mexico",
@@ -248,7 +244,7 @@ var simplemaps_usmap_mapdata={
     },
     AZ: {
       name: "Arizona",
-      color: "#333"
+      color: "#595959"
     },
     NV: {
       name: "Nevada",
@@ -302,15 +298,63 @@ var simplemaps_usmap_mapdata={
   },
   locations: {
     "0": {
-      name: "Memphis",
-      lat: "35.1495",
-      lng: "-89.971107",
-      url: "dshaglkjg"
+      name: "Dallas, TX",
+      lat: "32.7767",
+      lng: "-96.7970",
+      type: "circle",
+      url: "#dallas"
     },
     "1": {
-      name: "Anchorage",
-      lat: 61.2180556,
-      lng: -149.9002778
+      lat: 35.15,
+      lng: -90.049,
+      name: "Memphis, TN",
+      url: "#memphis"
+    },
+    "2": {
+      lat: 36.168,
+      lng: -86.778,
+      name: "Nashville, TN",
+      url: "#nashville"
+    },
+    "3": {
+      lat: 29.761,
+      lng: -95.37,
+      name: "Houston, TX",
+      url: "#houston"
+    },
+    "4": {
+      lat: 29.425,
+      lng: -98.495,
+      name: "San Antonio, TX",
+      url: "#san-antonio"
+    },
+    "5": {
+      lat: 30.331,
+      lng: -81.656,
+      name: "Jacksonville, FL",
+      url: "#jacksonville"
+    },
+    "6": {
+      lat: 34.749,
+      lng: -92.275,
+      name: "Little Rock, AR",
+      url: "#little-rock"
+    },
+    "7": {
+      lat: 33.448,
+      lng: -112.076,
+      name: "Phoenix, AZ",
+      url: "#phoenix"
+    },
+    "8": {
+      lat: 39.767,
+      lng: -86.15,
+      name: "Indianapolis, IN "
+    },
+    "9": {
+      lat: 27.947,
+      lng: -82.459,
+      name: "Tampa, FL "
     }
   },
   labels: {
