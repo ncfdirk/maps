@@ -7,8 +7,8 @@ var simplemaps_usmap_mapdata={
     border_color: "#ffffff",
     popups: "detect",
     state_description: "",
-    state_color: "#88A4BC",
-    state_hover_color: "#3B729F",
+    state_color: "#000000",
+    state_hover_color: "#595959",
     state_url: "",
     border_size: 1.5,
     all_states_inactive: "no",
@@ -66,603 +66,387 @@ var simplemaps_usmap_mapdata={
     location_image_url: ""
   },
   state_specific: {
-    HI: {
-      name: "Hawaii",
-      color: "#333"
-    },
-    AK: {
-      name: "Alaska",
-      color: "#333"
-    },
+    HI: {},
+    AK: {},
     FL: {
-      name: "Florida",
-      color: "#595959"
+      color: "#303030"
     },
-    NH: {
-      name: "New Hampshire",
-      color: "#333"
-    },
-    VT: {
-      name: "Vermont",
-      color: "#333"
-    },
-    ME: {
-      name: "Maine",
-      color: "#333"
-    },
-    RI: {
-      name: "Rhode Island",
-      color: "#333"
-    },
-    NY: {
-      name: "New York",
-      color: "#333"
-    },
-    PA: {
-      name: "Pennsylvania",
-      color: "#333"
-    },
-    NJ: {
-      name: "New Jersey",
-      color: "#333"
-    },
-    DE: {
-      name: "Delaware",
-      color: "#333"
-    },
-    MD: {
-      name: "Maryland",
-      color: "#333"
-    },
-    VA: {
-      name: "Virginia",
-      color: "#333"
-    },
-    WV: {
-      name: "West Virginia",
-      color: "#333"
-    },
-    OH: {
-      name: "Ohio",
-      color: "#333"
-    },
-    IN: {
-      name: "Indiana",
-      color: "#595959"
-    },
-    IL: {
-      name: "Illinois",
-      color: "#333"
-    },
-    CT: {
-      name: "Connecticut",
-      color: "#333"
-    },
-    WI: {
-      name: "Wisconsin",
-      color: "#333"
-    },
-    NC: {
-      name: "North Carolina",
-      color: "#333"
-    },
-    DC: {
-      name: "District of Columbia",
-      color: "#333"
-    },
-    MA: {
-      name: "Massachusetts",
-      color: "#333"
-    },
+    NH: {},
+    VT: {},
+    ME: {},
+    RI: {},
+    NY: {},
+    PA: {},
+    NJ: {},
+    DE: {},
+    MD: {},
+    VA: {},
+    WV: {},
+    OH: {},
+    IN: {},
+    IL: {},
+    CT: {},
+    WI: {},
+    NC: {},
+    DC: {},
+    MA: {},
     TN: {
-      name: "Tennessee",
-      color: "#595959"
+      color: "#303030"
     },
     AR: {
-      name: "Arkansas",
-      color: "#595959"
+      color: "#303030"
     },
-    MO: {
-      name: "Missouri",
-      color: "#333"
-    },
-    GA: {
-      name: "Georgia",
-      color: "#333"
-    },
-    SC: {
-      name: "South Carolina",
-      color: "#333"
-    },
-    KY: {
-      name: "Kentucky",
-      color: "#333"
-    },
-    AL: {
-      name: "Alabama",
-      color: "#333"
-    },
-    LA: {
-      name: "Louisiana",
-      color: "#333"
-    },
-    MS: {
-      name: "Mississippi",
-      color: "#333"
-    },
-    IA: {
-      name: "Iowa",
-      color: "#333"
-    },
-    MN: {
-      name: "Minnesota",
-      color: "#333"
-    },
-    OK: {
-      name: "Oklahoma",
-      color: "#333"
-    },
+    MO: {},
+    GA: {},
+    SC: {},
+    KY: {},
+    AL: {},
+    LA: {},
+    MS: {},
+    IA: {},
+    MN: {},
+    OK: {},
     TX: {
-      name: "Texas",
-      color: "#595959"
+      color: "#303030"
     },
-    NM: {
-      name: "New Mexico",
-      color: "#333"
-    },
+    NM: {},
     KS: {
-      name: "Kansas",
-      color: "#333"
+      color: "#303030"
     },
-    NE: {
-      name: "Nebraska",
-      color: "#333"
-    },
-    SD: {
-      name: "South Dakota",
-      color: "#333"
-    },
-    ND: {
-      name: "North Dakota",
-      color: "#333"
-    },
-    WY: {
-      name: "Wyoming",
-      color: "#333"
-    },
-    MT: {
-      name: "Montana",
-      color: "#333"
-    },
-    CO: {
-      name: "Colorado",
-      color: "#333"
-    },
-    UT: {
-      name: "Utah",
-      color: "#333"
-    },
+    NE: {},
+    SD: {},
+    ND: {},
+    WY: {},
+    MT: {},
+    CO: {},
+    UT: {},
     AZ: {
-      name: "Arizona",
-      color: "#595959"
+      color: "#303030"
     },
-    NV: {
-      name: "Nevada",
-      color: "#333"
-    },
-    OR: {
-      name: "Oregon",
-      color: "#333"
-    },
-    WA: {
-      name: "Washington",
-      color: "#333"
-    },
-    CA: {
-      name: "California",
-      color: "#333"
-    },
-    MI: {
-      name: "Michigan",
-      color: "#333"
-    },
-    ID: {
-      name: "Idaho",
-      color: "#333"
-    },
+    NV: {},
+    OR: {},
+    WA: {},
+    CA: {},
+    MI: {},
+    ID: {},
     GU: {
-      name: "Guam",
-      hide: "yes",
-      color: "#333"
+      hide: "yes"
     },
     VI: {
-      name: "Virgin Islands",
-      hide: "yes",
-      color: "#333"
+      hide: "yes"
     },
     PR: {
-      name: "Puerto Rico",
-      hide: "yes",
-      color: "#333"
+      hide: "yes"
     },
     MP: {
-      name: "Northern Mariana Islands",
-      hide: "yes",
-      color: "#333"
+      hide: "yes"
     },
     AS: {
-      name: "American Samoa",
-      hide: "yes",
-      color: "#333"
+      hide: "yes"
     }
   },
   locations: {
     "0": {
-      name: "Dallas, TX",
-      lat: "32.7767",
-      lng: "-96.7970",
-      type: "circle",
-      url: "#dallas"
+      lat: 32.778,
+      lng: -96.795,
+      name: "Dallas, TX"
     },
     "1": {
       lat: 35.15,
       lng: -90.049,
-      name: "Memphis, TN",
-      url: "#memphis"
+      name: "Memphis, TN"
     },
     "2": {
-      lat: 36.168,
-      lng: -86.778,
-      name: "Nashville, TN",
-      url: "#nashville"
+      lat: 34.749,
+      lng: -92.275,
+      name: "Little Rock, AR"
     },
     "3": {
       lat: 29.761,
       lng: -95.37,
-      name: "Houston, TX",
-      url: "#houston"
+      name: "Houston, TX"
     },
     "4": {
-      lat: 29.425,
-      lng: -98.495,
-      name: "San Antonio, TX",
-      url: "#san-antonio"
-    },
-    "5": {
-      lat: 30.331,
-      lng: -81.656,
-      name: "Jacksonville, FL",
-      url: "#jacksonville"
-    },
-    "6": {
-      lat: 34.749,
-      lng: -92.275,
-      name: "Little Rock, AR",
-      url: "#little-rock"
-    },
-    "7": {
       lat: 33.448,
       lng: -112.076,
-      name: "Phoenix, AZ",
-      url: "#phoenix"
+      name: "Phoenix, AZ"
     },
-    "8": {
-      lat: 39.767,
-      lng: -86.15,
-      name: "Indianapolis, IN "
-    },
-    "9": {
+    "5": {
       lat: 27.947,
       lng: -82.459,
-      name: "Tampa, FL "
+      name: "Tampa, FL"
+    },
+    "6": {
+      lat: 39.103,
+      lng: -94.583,
+      name: "Kansas City"
+    },
+    "7": {
+      lat: 28.538,
+      lng: -81.377,
+      name: "Orlando, FL"
+    },
+    "8": {
+      lat: 30.331,
+      lng: -81.656,
+      name: "Jacksonvill, FL"
+    },
+    "9": {
+      lat: 36.168,
+      lng: -86.778,
+      name: "Nashville, TN"
     }
   },
   labels: {
     NH: {
-      parent_id: "NH",
       x: "932",
       y: "183",
-      pill: "yes",
+      pill: "no",
       width: 45,
       display: "all"
     },
     VT: {
-      parent_id: "VT",
       x: "883",
       y: "243",
-      pill: "yes",
+      pill: "no",
       width: 45,
       display: "all"
     },
     RI: {
-      parent_id: "RI",
       x: "932",
       y: "273",
-      pill: "yes",
+      pill: "no",
       width: 45,
       display: "all"
     },
     NJ: {
-      parent_id: "NJ",
       x: "883",
       y: "273",
-      pill: "yes",
+      pill: "no",
       width: 45,
       display: "all"
     },
     DE: {
-      parent_id: "DE",
       x: "883",
       y: "303",
-      pill: "yes",
+      pill: "no",
       width: 45,
       display: "all"
     },
     MD: {
-      parent_id: "MD",
       x: "932",
       y: "303",
-      pill: "yes",
+      pill: "no",
       width: 45,
       display: "all"
     },
     DC: {
-      parent_id: "DC",
       x: "884",
       y: "332",
-      pill: "yes",
+      pill: "no",
       width: 45,
       display: "all"
     },
     MA: {
-      parent_id: "MA",
       x: "932",
       y: "213",
-      pill: "yes",
+      pill: "no",
       width: 45,
       display: "all"
     },
     CT: {
-      parent_id: "CT",
       x: "932",
       y: "243",
-      pill: "yes",
+      pill: "no",
       width: 45,
       display: "all"
     },
     HI: {
-      parent_id: "HI",
       x: 305,
       y: 565,
-      pill: "yes"
+      pill: "no"
     },
     AK: {
-      parent_id: "AK",
       x: "113",
       y: "495"
     },
     FL: {
-      parent_id: "FL",
       x: "773",
       y: "510"
     },
     ME: {
-      parent_id: "ME",
       x: "893",
       y: "85"
     },
     NY: {
-      parent_id: "NY",
       x: "815",
       y: "158"
     },
     PA: {
-      parent_id: "PA",
       x: "786",
       y: "210"
     },
     VA: {
-      parent_id: "VA",
       x: "790",
       y: "282"
     },
     WV: {
-      parent_id: "WV",
       x: "744",
       y: "270"
     },
     OH: {
-      parent_id: "OH",
       x: "700",
       y: "240"
     },
     IN: {
-      parent_id: "IN",
       x: "650",
       y: "250"
     },
     IL: {
-      parent_id: "IL",
       x: "600",
       y: "250"
     },
     WI: {
-      parent_id: "WI",
       x: "575",
       y: "155"
     },
     NC: {
-      parent_id: "NC",
       x: "784",
       y: "326"
     },
     TN: {
-      parent_id: "TN",
       x: "655",
       y: "340"
     },
     AR: {
-      parent_id: "AR",
       x: "548",
       y: "368"
     },
     MO: {
-      parent_id: "MO",
       x: "548",
       y: "293"
     },
     GA: {
-      parent_id: "GA",
       x: "718",
       y: "405"
     },
     SC: {
-      parent_id: "SC",
       x: "760",
       y: "371"
     },
     KY: {
-      parent_id: "KY",
       x: "680",
       y: "300"
     },
     AL: {
-      parent_id: "AL",
       x: "655",
       y: "405"
     },
     LA: {
-      parent_id: "LA",
       x: "550",
       y: "435"
     },
     MS: {
-      parent_id: "MS",
       x: "600",
       y: "405"
     },
     IA: {
-      parent_id: "IA",
       x: "525",
       y: "210"
     },
     MN: {
-      parent_id: "MN",
       x: "506",
       y: "124"
     },
     OK: {
-      parent_id: "OK",
       x: "460",
       y: "360"
     },
     TX: {
-      parent_id: "TX",
       x: "425",
       y: "435"
     },
     NM: {
-      parent_id: "NM",
       x: "305",
       y: "365"
     },
     KS: {
-      parent_id: "KS",
       x: "445",
       y: "290"
     },
     NE: {
-      parent_id: "NE",
       x: "420",
       y: "225"
     },
     SD: {
-      parent_id: "SD",
       x: "413",
       y: "160"
     },
     ND: {
-      parent_id: "ND",
       x: "416",
       y: "96"
     },
     WY: {
-      parent_id: "WY",
       x: "300",
       y: "180"
     },
     MT: {
-      parent_id: "MT",
       x: "280",
       y: "95"
     },
     CO: {
-      parent_id: "CO",
       x: "320",
       y: "275"
     },
     UT: {
-      parent_id: "UT",
       x: "223",
       y: "260"
     },
     AZ: {
-      parent_id: "AZ",
       x: "205",
       y: "360"
     },
     NV: {
-      parent_id: "NV",
       x: "140",
       y: "235"
     },
     OR: {
-      parent_id: "OR",
       x: "100",
       y: "120"
     },
     WA: {
-      parent_id: "WA",
       x: "130",
       y: "55"
     },
     ID: {
-      parent_id: "ID",
       x: "200",
       y: "150"
     },
     CA: {
-      parent_id: "CA",
       x: "79",
       y: "285"
     },
     MI: {
-      parent_id: "MI",
       x: "663",
       y: "185"
     },
     PR: {
-      parent_id: "PR",
       x: "620",
       y: "545"
     },
     GU: {
-      parent_id: "GU",
       x: "550",
       y: "540"
     },
     VI: {
-      parent_id: "VI",
       x: "680",
       y: "519"
     },
     MP: {
-      parent_id: "MP",
       x: "570",
       y: "575"
     },
     AS: {
-      parent_id: "AS",
       x: "665",
       y: "580"
     }
